@@ -7,7 +7,7 @@ import torch.optim as optim
 from model import PoetryModel
 from dataHandler import *
 from config import Config
-from utils import Visualizer
+# from utils import Visualizer
 
 
 class TrainModel(object):

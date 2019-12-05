@@ -37,5 +37,5 @@ class PoetryModel(nn.Module):
         return output, hidden
 
     def init_hidden(self, layer_num, batch_size):
-        return (Variable(torch.zeros(layer_num, batch_size, self.hidden_dim)).cuda(),
-                Variable(torch.zeros(layer_num, batch_size, self.hidden_dim)).cuda())
+        return (Variable(torch.zeros(layer_num, batch_size, self.hidden_dim)),
+                Variable(torch.zeros(layer_num, batch_size, self.hidden_dim)))

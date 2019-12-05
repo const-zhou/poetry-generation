@@ -9,7 +9,7 @@
 
 
 class Config(object):
-    data_path = "/home/wangcao/program/chinese-poetry/json/"
+    data_path = "/Users/zhoudunguang/LearnData/GoLearn/goWebLearning/chinese-poetry-master/json/"
     category = "poet.tang"
     author = None
     constrain = None
@@ -33,7 +33,7 @@ class Config(object):
     debug_file = '/tmp/debugp'
     env = 'poetry'
 
-    use_gpu = True
+    use_gpu = False
 
     max_gen_len = 200  # 生成诗歌最长长度
     sentence_max_len = 4 # 生成诗歌的最长句子
